@@ -15,3 +15,5 @@ TIL 자바스크립트 언어 공부 저장소
 - [17장.생성자 함수에 의한 객체 생성](https://github.com/nincoding/javascript-study/tree/main/chapter17.%EC%83%9D%EC%84%B1%EC%9E%90%ED%95%A8%EC%88%98%EC%97%90%20%EC%9D%98%ED%95%9C%20%EA%B0%9D%EC%B2%B4%EC%83%9D%EC%84%B1)
 
 - [18장.함수와 일급 객체](https://github.com/nincoding/javascript-study/tree/main/chapter18.%ED%95%A8%EC%88%98%EC%99%80%20%EC%9D%BC%EA%B8%89%EA%B0%9D%EC%B2%B4)
+
+- [19장.프로토타입] 
