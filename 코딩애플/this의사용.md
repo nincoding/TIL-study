@@ -96,7 +96,7 @@ const obj1 = new 기계(); //새로생성되는 오브젝트에는 이름 kim이
 <button id = '버튼'>버튼</button>
 <script>
 //아이디가 버튼인거 찾아주세요 -> 그걸 클릭하면 -> 실행해줌
-document.getElementById('버튼').addEventListener('click', () => {
+document.getElementById('버튼').addEventListener('click', function() {
   this; // e.currentTarget; //HTML 태그가 나옴
 })
 </script>
@@ -178,3 +178,22 @@ obj.func();
 **화살표 함수는 내부의 this값을 변화시키지 않음 (외부 this 값을 그대로 재사용가능)**
 예전에는 this값을 자유롭게 갖다 쓸 수 없었기 때문에 call(), bind() 같은걸 붙여서 안에 this값을 갖다 쓰고 그랬지만 지금은 화살표 함수 쓰면 this를 상속받아서 그대로 재사용 가능함
 굳이 특정 상황이 아니라면 bind나 call을 쓸 필요가 없음
+
+innerHTML 출력 setTimeout으로 조작할때 화살표함수에 this 활용해야됨
+일반함수 쓰면 전역객체가 this값에 담겨서 아무것도 출력안됨
+
+```
+<button id="버튼">버튼이에요</button>
+
+<script>
+  //근본없는 일반함수쓰면 this가 window가 나옴
+  //window.innerHTML쓰면 아무것도 안나옴
+  //옛날엔 이 this값을 변수에 저장했음
+  document.getElementById('버튼').addEventListener('click', function (){
+    setTimeout(() => {
+    console.log(this.innerHTML);
+  }, 1000);
+  });
+
+</script>
+```
