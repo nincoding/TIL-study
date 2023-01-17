@@ -1,33 +1,18 @@
-function pivot(arr, start = 0, end = arr.length - 1) {
-  const swap = (arr, idx1, idx2) => {
-    [arr[idx1], arr[idx2]] = [arr[idx2], arr[idx1]];
-  };
-
-  // 피봇이 항상 첫 번째 요소라고 가정
-  let pivot = arr[start];
-  let swapIdx = start;
-
-  for (let i = start + 1; i <= end; i++) {
-    if (pivot > arr[i]) {
-      swapIdx++;
-      swap(arr, swapIdx, i);
-    }
-  }
-
-  swap(arr, start, swapIdx);
-  return swapIdx;
+const arr = [];
+console.time('Array Perforance Test');
+for (let i = 0; i < 100000000; i++) {
+    arr[i] = i;
 }
+console.timeEnd('Array Perforance Test'); //1.888s
 
-console.log(pivot([4, 8, 2, 1, 5, 7, 6, 3]));
-function quickSort(arr, left = 0, right = arr.length - 1) {
-  if (left < right) {
-    let pivotIndex = pivot(arr, left, right); // 위에서 정의한 헬퍼 함수 사용
-    // left
-    quickSort(arr, left, pivotIndex - 1);
-    // right
-    quickSort(arr, pivotIndex + 1, right);
-  }
-  return arr;
+const obj = {};
+console.time('Object Perforance Test');
+for (let i = 0; i < 100000000; i++) {
+    obj[i] = i;
 }
+console.timeEnd('Object Perforance Test'); //2.216s
 
-console.log(quickSort([4, 6, 9, 1, 2, 5, 3]));
+/**
+ * 얕은 복사 , 깊은 복사, 완전한 깊은 복사
+딥다이브 => 얕은 복사를 깊은 복사 / 완전한 깊은복사 깊은복사
+ */
