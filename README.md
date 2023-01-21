@@ -2,26 +2,23 @@
 
 TIL 공부 저장소
 
-## Directory
+## 🌲 Directory
 
-### main
+### 🌱 main
 - HTML
 - CSS
 - Javascript
 - React
 - Node.js
 - Typescript
-- Algorithm
-- Operating System(CS)
 
-
-### sub
+### 🌱 sub
 - Algorithm
 - Operating System(CS)
 - Training Practice Folder
 - ETC
 
-### bootcamp & pre-challenge
+### 🌱 bootcamp & pre-challenge
 - codestates
 - woowacourse
 - wanted
