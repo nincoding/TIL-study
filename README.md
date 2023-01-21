@@ -1,3 +1,15 @@
-# 👩‍🏫 javascript-study
+# 👩‍🏫 Today I Learned
 
-TIL 자바스크립트 언어 공부 저장소
+TIL 공부 저장소
+
+## Directory
+
+- HTML
+- CSS
+- Javascript
+- React
+- Node.js
+- Typescript
+- Algorithm
+- Operating System
+- Training Practice Folder
