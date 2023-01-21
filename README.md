@@ -4,6 +4,7 @@ TIL 공부 저장소
 
 ## Directory
 
+### main
 - HTML
 - CSS
 - Javascript
@@ -11,5 +12,17 @@ TIL 공부 저장소
 - Node.js
 - Typescript
 - Algorithm
-- Operating System
+- Operating System(CS)
+
+
+### sub
+- Algorithm
+- Operating System(CS)
 - Training Practice Folder
+- ETC
+
+### bootcamp & pre-challenge
+- codestates
+- woowacourse
+- wanted
+- nomadcoder
