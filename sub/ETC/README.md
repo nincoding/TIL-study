@@ -1,3 +1,5 @@
+![](https://velog.velcdn.com/images/ninto_2/post/57eef3ea-b959-4dab-8043-d4f5b549f29e/image.png)
+
 🌱 1주차 [2023.02.05 - 2023.02.12]
 
 | 📌 블로그 정리                                      |
